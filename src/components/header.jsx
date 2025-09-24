@@ -1,0 +1,30 @@
+import { useState, useEffect } from "react";
+import { FaUser, FaMoon, FaBars } from "react-icons/fa";
+
+export function Header() {
+  const [scrolled, setScrolled] = useState(false);
+
+  useEffect(() => {
+    const handleScroll = () => setScrolled(window.scrollY > 0);
+    window.addEventListener("scroll", handleScroll);
+    return () => window.removeEventListener("scroll", handleScroll);
+  }, []);
+
+  return (
+    <div
+      className={`z-10 fixed top-0 left-0 p-2 w-full flex justify-center items-center backdrop-blur-md bg-[rgba(255,255,255,0.2)] transition-shadow ${
+        scrolled
+          ? "shadow-sm shadow-[rgb(0,0,0,.1)]"
+          : "shadow-none"
+      }`}
+    >
+      <div className="p-2 rounded-full border-2 border-solid border-[#0583f2]">
+        <FaUser className="text-[#0583F2] text-2xl" />
+      </div>
+      <div className="absolute right-0 mr-3 flex">
+        <FaMoon className="text-xl text-[#0583f2] mr-5" />
+        <FaBars className="text-xl text-[#0583f2]" />
+      </div>
+    </div>
+  );
+}
