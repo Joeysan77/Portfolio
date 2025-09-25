@@ -1,4 +1,5 @@
 import {ScrollReveal} from './scrollreveal.jsx'
+import {FaHome} from 'react-icons/fa';
 export function Services() {
     return (
         <>
