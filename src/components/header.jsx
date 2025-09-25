@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 import { FaUser, FaMoon, FaBars } from "react-icons/fa";
-
+import {Logo} from './logo.jsx'
 export function Header() {
   const [scrolled, setScrolled] = useState(false);
 
@@ -18,13 +18,14 @@ export function Header() {
           : "shadow-none"
       }`}
     >
-      <div className="p-2 rounded-full border-2 border-solid border-[#0583f2]">
-        <FaUser className="text-[#0583F2] text-2xl" />
-      </div>
+     <div className="p-2 rounded-full border-2 border-solid border-[#0583f2]">
+        <FaUser className="text-[#0583F2] text-2xl " />
+      </div> 
       <div className="absolute right-0 mr-3 flex">
-        <FaMoon className="text-xl text-[#0583f2] mr-5" />
-        <FaBars className="text-xl text-[#0583f2]" />
+        <FaMoon className="text-xl text-black mr-5" />
+        <FaBars className="text-xl text-black" />
       </div>
+      <Logo/>
     </div>
   );
 }
