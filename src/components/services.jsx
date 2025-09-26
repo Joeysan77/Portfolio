@@ -9,7 +9,7 @@ export function Services() {
         </div>
         <div>
             <ScrollReveal>
-          <div class="shadow-md shadow-[rgb(5,131,242,.1)] bg-white mt-5 w-[90%] ml-[5%] p-3 border border-[#E2E8F0] border-solid rounded-xl hover:border-[#0583f2] hover:border hover:border-solid hover:-translate-y-1 transition duration-500">
+          <div class="shadow-md shadow-[rgb(5,131,242,.1)] bg-white mt-5 w-[90%] mt-[20px] ml-[5%] p-3 border border-[#E2E8F0] border-solid rounded-xl hover:border-[#0583f2] hover:border hover:border-solid hover:-translate-y-1 transition duration-500">
             <div class="ml-[0] bg-[rgb(5,131,242,.1)] inline-block p-3
             shadow-lg shadow-[rgb(5,131,242,.1)] w-auto rounded-full">
                  <img class="w-[40px]" src="/w_design.png" alt=""/>
@@ -21,7 +21,7 @@ export function Services() {
           
           
           
-          <ScrollReveal><div class="shadow-md shadow-[rgb(5,131,242,.1)] bg-white pb-3 mt-5 w-[90%] ml-[5%] p-3 border border-[#E2E8F0] border-solid rounded-xl hover:border-[#0583f2] hover:border hover:border-solid hover:-translate-y-1 transition duration-500">
+          <ScrollReveal><div class="shadow-md shadow-[rgb(5,131,242,.1)] bg-white pb-3 mt-[20px] w-[90%] ml-[5%] p-3 border border-[#E2E8F0] border-solid rounded-xl hover:border-[#0583f2] hover:border hover:border-solid hover:-translate-y-1 transition duration-500">
             <div class="ml-[0] bg-[rgb(5,131,242,.1)] inline-block p-3
             shadow-lg shadow-[rgb(5,131,242,.1)] w-auto rounded-full">
                  <img class="w-[40px]" src="/e_commerce.png" alt=""/>
@@ -33,7 +33,7 @@ export function Services() {
           
           
           
-          <ScrollReveal><div class="shadow-md shadow-[rgb(5,131,242,.1)] bg-white pb-3 mt-5 w-[90%] ml-[5%] p-3 border border-[#E2E8F0] border-solid rounded-xl hover:border-[#0583f2] hover:border hover:border-solid hover:-translate-y-1 transition duration-500">
+          <ScrollReveal><div class="shadow-md shadow-[rgb(5,131,242,.1)] bg-white pb-3 mt-[20px] w-[90%] ml-[5%] p-3 border border-[#E2E8F0] border-solid rounded-xl hover:border-[#0583f2] hover:border hover:border-solid hover:-translate-y-1 transition duration-500">
             <div class="ml-[0] bg-[rgb(5,131,242,.1)] inline-block p-3
             shadow-lg shadow-[rgb(5,131,242,.1)] w-auto rounded-full">
                  <img class="w-[40px]" src="/lpage.png" alt=""/>
@@ -46,7 +46,7 @@ export function Services() {
         
         
         
-        <ScrollReveal><div class="shadow-md shadow-[rgb(5,131,242,.1)] bg-white pb-3 mt-5 w-[90%] ml-[5%] p-3 border border-[#E2E8F0] border-solid rounded-xl hover:border-[#0583f2] hover:border hover:border-solid hover:-translate-y-1 transition duration-500">
+        <ScrollReveal><div class="shadow-md shadow-[rgb(5,131,242,.1)] bg-white pb-3 mt-[20px] w-[90%] ml-[5%] p-3 border border-[#E2E8F0] border-solid rounded-xl hover:border-[#0583f2] hover:border hover:border-solid hover:-translate-y-1 transition duration-500">
             <div class="ml-[0] bg-[rgb(5,131,242,.1)] inline-block p-3
             shadow-lg shadow-[rgb(5,131,242,.1)] w-auto rounded-full">
                  <img class="w-[40px]" src="/seo.png" alt=""/>
@@ -59,7 +59,7 @@ export function Services() {
         
         
         
-        <ScrollReveal><div class="shadow-md shadow-[rgb(5,131,242,.1)] bg-white pb-3 mt-5 w-[90%] ml-[5%] p-3 border border-[#E2E8F0] border-solid rounded-xl hover:border-[#0583f2] hover:border hover:border-solid hover:-translate-y-1 transition duration-500">
+        <ScrollReveal><div class="shadow-md shadow-[rgb(5,131,242,.1)] bg-white pb-3 mt-[20px] w-[90%] ml-[5%] p-3 border border-[#E2E8F0] border-solid rounded-xl hover:border-[#0583f2] hover:border hover:border-solid hover:-translate-y-1 transition duration-500">
             <div class="ml-[0] bg-[rgb(5,131,242,.1)] inline-block p-3
             shadow-lg shadow-[rgb(5,131,242,.1)] w-auto rounded-full">
                  <img class="w-[40px]" src="/w_redesign.png" alt=""/>
@@ -69,7 +69,7 @@ export function Services() {
         </div></ScrollReveal>  
             
             
-            <ScrollReveal><div class="shadow-md mb-[5rem] shadow-[rgb(5,131,242,.1)] bg-white pb-3 mt-5 w-[90%] ml-[5%] p-3 border border-[#E2E8F0] border-solid rounded-xl hover:border-[#0583f2] hover:border hover:border-solid hover:-translate-y-1 transition duration-500">
+            <ScrollReveal><div class="shadow-md mb-[5rem] shadow-[rgb(5,131,242,.1)] bg-white pb-3 mt-[20px] w-[90%] ml-[5%] p-3 border border-[#E2E8F0] border-solid rounded-xl hover:border-[#0583f2] hover:border hover:border-solid hover:-translate-y-1 transition duration-500">
             <div class="ml-[0] bg-[rgb(5,131,242,.1)] inline-block p-3
             shadow-lg shadow-[rgb(5,131,242,.1)] w-auto rounded-full">
                  <img class="w-[40px]" src="/w-maintain.png" alt=""/>
