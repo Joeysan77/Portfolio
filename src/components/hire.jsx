@@ -15,7 +15,7 @@ export function Hire() {
       </ScrollReveal>
 
       
-
+   <ScrollReveal>
       <div className="mt-7 w-[90%] ml-[5%] flex justify-around gap-2">
         <button className="shadow-md text-white bg-[#0583f2] flex p-2 rounded-lg hover:-translate-y-1 hover:shadow-lg transition">
           <FaEnvelope size={20} className="m-0 p-0 mr-2 align-middle inline" />
@@ -27,6 +27,7 @@ export function Hire() {
           <p>Let's Chat</p>
         </button>
       </div>
+      </ScrollReveal>
     </div>
   );
 }

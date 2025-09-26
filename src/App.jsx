@@ -7,7 +7,7 @@ import {Header} from './components/header.jsx'
 import {Hire} from './components/hire.jsx'
 import {Wfix} from './components/wfix.jsx'
 import {Services} from './components/services.jsx'
-
+import {PortfolioFooter} from './components/footer.jsx'
 function App() {
   return (
       <>
@@ -15,6 +15,7 @@ function App() {
       <Hire/>
       <Wfix/>
       <Services/>
+      <PortfolioFooter/>
       </>
   )
 }
