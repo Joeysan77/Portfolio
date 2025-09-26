@@ -8,7 +8,7 @@ import {Hire} from './components/hire.jsx'
 import {Wfix} from './components/wfix.jsx'
 import {Services} from './components/services.jsx'
 import {PortfolioFooter} from './components/footer.jsx'
-import { SpeedInsights } from "@vercel/speed-insights/next"
+import { SpeedInsights } from "@vercel/speed-insights/react"
 function App() {
   return (
       <>
@@ -17,6 +17,7 @@ function App() {
       <Wfix/>
       <Services/>
       <PortfolioFooter/>
+      <SpeedInsights/>
       </>
   )
 }
